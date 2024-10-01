@@ -25,6 +25,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-headings {
+    display: none;
+}
+
 
 header{
     background-color: #ffffff;
@@ -168,6 +172,11 @@ main{
 #times h3{
     /* overide the heading color in general styles */
     color: #fafafa;
+}
+
+/* Gallery */
+#photos img{
+    width: 100%;
 }
 
 /* Footer */
