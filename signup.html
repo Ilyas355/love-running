@@ -32,11 +32,35 @@
     
     <!-- Main-->
     <main>
-        <section id="hero">
-            <div id="cover-text">
-                <h2>Love Running</h2>
-                <h3>Dublin Docklands & Phionex Park</h3>
-            </div>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!</h2>
+                
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="text" name="email-address" id="email-address" class="text-input" required>
+                <div id="radio-butttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
         </section>
     </main>
     <!--footer-->
